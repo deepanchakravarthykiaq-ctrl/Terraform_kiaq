@@ -1,0 +1,20 @@
+# Terraform working files
+.terraform/
+
+# Terraform state and backups
+*.tfstate
+*.tfstate.*
+terraform-state-backup.json
+
+# Variable files may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Credentials and private keys
+*.pem
+*.key
+.aws/
+
+# Terraform crash logs
+crash.log
+crash.*.log
